@@ -145,13 +145,21 @@ function game(string){
 //Metric Converter
 //a. KM to Miles - should take the number of kilometers and convert it to the equal number of miles
 
-
+function kmConversion(km){
+    return km * 0.621371 + "miles";
+  }
+  
+  console.log(kmConversion(2));
 
 
 
 //b. Feet to CM - should take the number of feet and convert it to the equal number of centimeters
   
-
+function ftConversion(ft){
+    return ft * 30.48 + "cm";
+  }
+  
+  console.log(ftConversion(2));
 
 
 
