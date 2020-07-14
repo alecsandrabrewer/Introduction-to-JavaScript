@@ -179,7 +179,24 @@ function annoyingSong(){
 //and anything below 60 should be F
   
 
+function grade(number){
+    let score = number / 100;
   
+    if (score >= .90){
+      return "grade: A";
+    } if (score >= .80){
+      return "grade: B";
+    } if (score >= .70){
+      return "grade: C";
+    } if (score >= .60){
+      return "grade: D";
+    } else {
+      return "grade: F";
+    }
+  
+  }
+  
+  console.log(grade(94));
   
 
 /************************************************************** Stretch **************************************************************/
