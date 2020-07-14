@@ -161,7 +161,12 @@ function game(string){
 // the function should take a starting number as an argument and count down - at each iteration it should log (number) bottles of soda on the wall, (number) bottles of soda, take one down pass it around (number left over) bottles of soda on the wall`
   
 
-
+function annoyingSong(){
+    for (let i = 99; i >= 0 ; i--){
+      console.log(i + " bottles of beer on the wall " + i + "bottles of beer, you take one down, pass it around " + (i -1) + "bottles of beer on the wall")
+    }
+  }
+  console.log(annoyingSong());
 
 
 /************************************************************** Task 7 **************************************************************/
